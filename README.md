@@ -2,7 +2,9 @@
 
 # Timezone32
 [![Version: v1.0](https://img.shields.io/badge/Version-v1.0-blue?style=for-the-badge&logo=v)]()
+
 This is an adaption of Arduino Timezone Library
+
 https://github.com/JChristensen/Timezone  -> https://github.com/RafaelReyesCarmona/Time32
 
 
