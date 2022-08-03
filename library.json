@@ -18,10 +18,14 @@
         "type": "git",
          "url": "https://github.com/RafaelReyesCarmona/Timezone32.git"
     },
-    "version": "1.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/RafaelReyesCarmona/Timezone32",
     "frameworks": "Arduino",
     "examples": [
         "examples/*/*.ino"
-    ]
+    ],
+    "dependencies":
+	{
+		"rafaelreyescarmona/Time32": "*"
+	}
 }

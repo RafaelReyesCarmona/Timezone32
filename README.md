@@ -1,7 +1,7 @@
 <img src="images/icons8-timezone-48.png" width=48 height=48 align=right>
 
 # Timezone32
-[![Version: v1.0](https://img.shields.io/badge/Version-v1.0-blue?style=for-the-badge&logo=v)]()
+[![Version: v1.0.1](https://img.shields.io/badge/Version-v1.0.1-blue?style=for-the-badge&logo=v)]()
 
 This is an adaption of Arduino Timezone Library
 
