@@ -172,6 +172,24 @@ void Timezone::initTimeChanges()
 }
 
 /*----------------------------------------------------------------------*
+ * Return time32_t value for local time when dst start                  *
+ * for the given year.                                                  *
+ *----------------------------------------------------------------------*/
+time32_t Timezone::WhendstStart(int yr)
+{
+    return toTime_t(m_dst, yr);
+}
+
+/*----------------------------------------------------------------------*
+ * Return time32_t value for local time when std start                  *
+ * for the given year.                                                  *
+ *----------------------------------------------------------------------*/
+time32_t Timezone::WhenstdStart(int yr)
+{
+    return toTime_t(m_std, yr);
+}
+
+/*----------------------------------------------------------------------*
  * Convert the given time change rule to a time32_t value                 *
  * for the given year.                                                  *
  *----------------------------------------------------------------------*/

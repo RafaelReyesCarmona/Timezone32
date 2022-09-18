@@ -1,7 +1,7 @@
 <img src="images/icons8-timezone-48.png" width=48 height=48 align=right>
 
 # Timezone32
-[![Version: v1.0.1](https://img.shields.io/badge/Version-v1.0.1-blue?style=for-the-badge&logo=v)]()
+[![Version: v1.1](https://img.shields.io/badge/Version-v1.1-blue?style=for-the-badge&logo=v)]()
 
 This is an adaption of Arduino Timezone Library
 
@@ -189,6 +189,29 @@ Calling this function with local times during a transition interval should be av
 ##### Returns
 UTC *(time32_t)*  
 
+### time32_t WhendstStart(int yr);
+### time32_t WhenstdStart(int yr);
+##### Description
+These functions returns when dst or std start. Give time in local time.
+##### Syntax
+`WhendstStart(year);`  
+`WhenstdStart(year);`  
+##### Parameters
+***year:*** The beginning EEPROM address to write to or read from *(int)*
+##### Returns
+***local:*** Local Time *(time32_t)* 
+##### Example
+`timedst = WhendstStart(2022);  //return time when dst time start (local time) for give year 2022.`
+`timestd = WhenstdStart(2022);  //return time when std time start (local time) for give year 2022.`
+
+## Changelog
+### V1.1
+    * added functions WhendstStart and WhenstdStart.
+### V1.0.1
+    * Fixed 
+### V1.0
+    * Initial version adapted to time32_t.
+
 ## License for Timezone
 Arduino Timezone Library Copyright (C) 2018 Jack Christensen GNU GPL v3.0
 
@@ -213,7 +236,7 @@ You should have received a copy of the GNU General Public License along with Tim
 
 ## Authors ##
 ### Timezone32
-Copyright © 2019-2021 Francisco Rafael Reyes Carmona.
+Copyright © 2019-2022 Francisco Rafael Reyes Carmona.
 Contact me: rafael.reyes.carmona@gmail.com
 
 ### Timezone

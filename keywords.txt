@@ -18,6 +18,8 @@ locIsDST	KEYWORD2
 setRules	KEYWORD2
 readRules	KEYWORD2
 writeRules	KEYWORD2
+WhendstStart KEYWORD2
+WhenstdStart KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
